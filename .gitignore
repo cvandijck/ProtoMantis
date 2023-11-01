@@ -1,0 +1,42 @@
+# Basics
+*.pyc
+*.log
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/**
+
+# Dependencies
+dependencies/**
+!dependencies/pull_dependencies.bat
+!dependencies/README.md
+
+# Build
+build/**
+dist/**
+*egg-info/**
+
+# Tests
+tests/data/**
+!tests/data/pull_test_data.bat
+!tests/data/README.md
+
+# Data
+glenoiddefect/data/**
+!glenoiddefect/data/pull_package_data.bat
+!glenoiddefect/data/README.md
+
+# Documentation
+docs/_build/**
+docs/api/_generated/**

@@ -1,0 +1,18 @@
+# documentation
+sphinx
+sphinx_rtd_theme
+myst_parser
+jupyter_sphinx
+nbsphinx
+sphinxcontrib-apidoc
+
+# building
+versioneer
+setuptools
+wheel
+
+# testing
+pytest
+
+# release
+artifactory
