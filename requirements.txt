@@ -1,2 +1,2 @@
-numpy
-pandas
+pyqt6
+vtk
